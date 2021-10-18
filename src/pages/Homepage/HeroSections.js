@@ -20,7 +20,7 @@ export const About = ()=>{
               flexDirection: ''
             }}
           >
-            <div className='col'>
+            <div className='col left'>
               <div className='home__hero-text-wrapper'>
                 <h1 className='heading dark' style={{textShadow:'0px 2px 4px #BA55D3'}}>
                   We Are Everything You Aspire To Be
@@ -36,7 +36,7 @@ export const About = ()=>{
                 </Link>
               </div>
             </div>
-            <div className='col'>
+            <div className='col right'>
               <div className='home__hero-img-wrapper'>
                 <img src={Developer} alt='Web developer'  className='home__hero-img' />
               </div>
@@ -61,7 +61,7 @@ export const Features = ()=>{
               flexDirection: 'row-reverse'
             }}
           >
-            <div className='col'>
+            <div className='col right'>
               <div className='home__hero-text-wrapper'>
                 <h1 className='heading dark' >
                   Features we provide for you
@@ -81,7 +81,7 @@ export const Features = ()=>{
 
               </div>
             </div>
-            <div className='col'>
+            <div className='col left'>
               <div className='home__hero-img-wrapper'>
                 <img src={Keyboard} alt='Web developer' className='home__hero-img' />
               </div>
