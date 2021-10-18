@@ -58,4 +58,11 @@
     border: none;
   }
   
+
+  @media screen and (max-width: 768px) {
+   .btn--wide{
+    padding: 8px 10px;
+    font-size: 18px;
+   }
+  }
  
