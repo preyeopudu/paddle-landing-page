@@ -1,0 +1,47 @@
+.stat-container{
+  background-color: #fff;
+  padding: 20px;
+ 
+}
+
+.stat-section{
+  width: 80%;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  justify-content: center;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.flex-container:nth-child(even)  {
+  margin-right: 0px;
+  border-left: 2px solid #EEEFF2;
+  border-right: 2px solid #EEEFF2;
+} 
+
+
+@media screen and (max-width: 960px) {
+
+  .stat-section{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 30px 0;
+      width: 100%;
+  }
+
+  .stat-container{
+    width: 100%;
+  }
+
+  .flex-container:nth-child(even)  {
+    margin-right: 0px;
+    border-left: none;
+    border-right: none;
+  } 
+
+}
