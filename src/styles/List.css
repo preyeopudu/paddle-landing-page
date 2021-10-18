@@ -9,8 +9,8 @@
 
 .list-container{
     display: flex;
-
-}
+   
+} 
 
 .list-img{
     width: 15px;
@@ -19,4 +19,13 @@
 
 .content-container{
     margin-left: 20px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .list-container{
+        margin-top: 10px;
+        justify-content: center;
+    
+    }
 }
