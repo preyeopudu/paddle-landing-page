@@ -13,7 +13,7 @@ import Logo from '../../images/logo.svg'
 const Navbar = () => {
   return (
     <>
-      <Nav style={{backgroundColor:'#fff',padding:'60px',maxWidth:'100%'}}>
+      <Nav >
         <NavLink to='/'>
           <img src={Logo} alt='logo' />
         </NavLink>
