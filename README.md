@@ -1,8 +1,1 @@
-### Library used was React-router-dom
-
-### Step guide to run application 
-### `npm install`
-### `npm start`
-
-
-### i would improve on the responsiveness of the web app
+#Web apllication built from https://www.figma.com/file/04SjleyNBJss8dFJQdx9HW/PaddleDemo?node-id=0%3A1
